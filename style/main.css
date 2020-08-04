@@ -31,3 +31,7 @@ body {
 .item-link:hover {
     color: yellow;
 }
+
+.menu {
+    color: #808080;
+}

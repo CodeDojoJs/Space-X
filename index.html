@@ -8,15 +8,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Space X</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
 
     <!-- CSS -->
     <link rel="stylesheet" href="style/vidbg.css">
+    <link rel="stylesheet" href="style/aos.css">
     <link rel="stylesheet" href="style/main.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
     <!-- JavaScript -->
     <script src="js/vidbg.js" defer></script>
     <script src="js/rellax.min.js"></script>
+    <script src="js/aos.js" defer></script>
     <script src="js/app.js" defer></script>
 
 
@@ -24,8 +27,8 @@
 
 <body>
     <header class="header">
-        <img src="img/logo.svg" alt="logo" class="logo">
-        <nav class="main-nav">
+        <img src="img/logo.svg" alt="logo" class="logo" data-aos="fade-down" data-aos-delay="300">
+        <nav class="main-nav" data-aos="fade-down" data-aos-delay="300">
             <ul class="list">
                 <li class="item">
                     <a target="_blank" href="https://ru.wikipedia.org/wiki/Falcon_9" title="Узнать больше о Falcon 9"
@@ -45,7 +48,7 @@
                 </li>
             </ul>
         </nav>
-        <nav class="secodary-nav">
+        <nav class="secodary-nav" data-aos="fade-down" data-aos-delay="300">
             <ul class="list">
                 <li class="item">
                     <a href="#?" class="item-link">About</a>
@@ -60,16 +63,16 @@
         </nav>
     </header>
     <section class="main">
-        <h1 class="title">Falcon Heavy</h1>
-        <p class="description">
+        <h1 class="title" data-aos="fade-up" data-aos-delay="800">Falcon Heavy</h1>
+        <p class="description" data-aos="fade-up" data-aos-delay="1000">
             The most powerful operational rocket in the world by a factor of two
         </p>
     </section>
-    <div class="video"></div>
+    <div class="video"  data-aos="fade-up" data-aos-delay="1500"></div>
     <section class="features">
         <div class="overview">
-            <h2 class="features-title">Falcon Heavy <br> Overview</h2>
-            <table class="table">
+            <h2 class="features-title"  data-aos="fade-left" data-aos-delay="1600">Falcon Heavy <br> Overview</h2>
+            <table class="table"  data-aos="fade-left" data-aos-delay="1500">
                 <tr>
                     <td class="table-column">HEIGHT</td>
                     <td class="table-column">70 m / <span class="table-text">229.6 ft</span></td>
@@ -95,8 +98,8 @@
                     <td class="table-column">16,800 kg / <span class="table-text">37,040 lb</span></td>
                 </tr>
             </table>
-            <img src="img/falcon-heavy.png" alt="rocket" class="rocket" data-rellax-speed="14">
-            <h2 class="features-title">UNMATCHED <br> PERFORMANCE</h2>
+            <img src="img/falcon-heavy.png" alt="rocket" class="rocket" data-rellax-speed="14" data-aos="fade-right">
+            <h2 class="features-title" data-aos="fade-right" data-aos-delay="1500">UNMATCHED <br> PERFORMANCE</h2>
             <p class="features-text">
                 With more than 5 million pounds of thrust at liftoff, Falcon Heavy 
                 is the most capable rocket flying. By comparison, the liftoff thrust of 
@@ -106,7 +109,7 @@
             </p>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" data-aos="zoom-in-up">
         <img src="img/logo.svg" class="logo" alt="logo">
         <nav class="footer-nav">
             <ul class="list">
